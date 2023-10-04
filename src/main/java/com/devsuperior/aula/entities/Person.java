@@ -11,7 +11,6 @@ public class Person {
     private Long id;
     private String name;
     private Double salary;
-
     @ManyToOne
     @JoinColumn(name = "department_id")
     private Department department;
